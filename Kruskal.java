@@ -15,7 +15,7 @@ class Edge implements Comparable<Edge> {
     }
 
     @Override
-    public int compareTo(Edge o) {
+    public int compareTo(Edge o) {  // cost를 가지고 정렬을 하겠다고 기준을 만듬
         if (this.cost < o.cost) {
             return - 1;
         }
@@ -63,6 +63,7 @@ public class Kruskal {
 
     public static void main(String[] args) {
         edgeList = new ArrayList<Edge>();
+
         edgeList.add(new Edge(1,4,4));
         edgeList.add(new Edge(1,2,6));
         edgeList.add(new Edge(2,3,5));
@@ -75,7 +76,7 @@ public class Kruskal {
 
         parent = new int[7];
 
-        for (int i = 0; i <=6; ++i) {
+        for (int i = 1; i <=6; ++i) {
             parent[i] = i;
         }
 
