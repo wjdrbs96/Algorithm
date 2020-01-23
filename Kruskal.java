@@ -41,7 +41,7 @@ public class Kruskal {
         }
     }
 
-    public static int find(int x) {
+    public static int find(int x) {  // 부모 노드 찾는 메소드
         if (parent[x] == x) {
             return x;
         }
@@ -50,7 +50,7 @@ public class Kruskal {
     }
 
     public static boolean isSameParent(int x, int y) {
-        x = find(x);
+        x = find(x);  // find 메소드를 통해서 부모 노드 번호를 리턴 받음
         y = find(y);
 
         if (x == y) {
@@ -64,19 +64,21 @@ public class Kruskal {
     public static void main(String[] args) {
         edgeList = new ArrayList<Edge>();
 
-        edgeList.add(new Edge(1,4,4));
-        edgeList.add(new Edge(1,2,6));
-        edgeList.add(new Edge(2,3,5));
-        edgeList.add(new Edge(2,4,3));
-        edgeList.add(new Edge(2,5,7));
-        edgeList.add(new Edge(2,6,8));
-        edgeList.add(new Edge(3,6,8));
-        edgeList.add(new Edge(4,5,9));
-        edgeList.add(new Edge(5,6,11));
+        edgeList.add(new Edge(1,7,12));
+        edgeList.add(new Edge(1,4,28));
+        edgeList.add(new Edge(1,2,67));
+        edgeList.add(new Edge(1,5,17));
+        edgeList.add(new Edge(2,4,24));
+        edgeList.add(new Edge(2,5,62));
+        edgeList.add(new Edge(3,5,20));
+        edgeList.add(new Edge(3,6,37));
+        edgeList.add(new Edge(4,7,13));
+        edgeList.add(new Edge(5,6,45));
+        edgeList.add(new Edge(5,7,73));
 
-        parent = new int[7];
+        parent = new int[8];
 
-        for (int i = 1; i <=6; ++i) {
+        for (int i = 1; i <=7; ++i) {
             parent[i] = i;
         }
 
