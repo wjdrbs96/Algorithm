@@ -1,4 +1,4 @@
-package Algorithm;
+package Algorithm.Kruskal;
 
 import java.util.ArrayList;
 import java.util.Collections;
