@@ -40,7 +40,7 @@ public class DijkstraTest {
 
             System.out.print(here + " ");
 
-            for (int i = 1; i <= V; ++i) {
+            for (int i = 1; i <= V; ++i) {   // 업데이트 시켜주는 for문
                 if (ad[here][i] != 0 && dist[i] > (dist[here] + ad[here][i])) {
                     dist[i] = dist[here] + ad[here][i];
                     pq.offer(new Element(i, dist[i]));
@@ -49,7 +49,7 @@ public class DijkstraTest {
 
             System.out.println();
 
-            for (int i = 1; i <= V; ++i) {
+            for (int i = 1; i <= V; ++i) {   // dist 배열의 중간 결과 보여주기
                 System.out.print(dist[i] + " ");
             }
         }
@@ -61,7 +61,7 @@ public class DijkstraTest {
         dist = new int[V + 1];
         ad = new int[V + 1][V + 1];
 
-        for (int i = 0; i <= V; ++i) {
+        for (int i = 1; i <= V; ++i) {
             dist[i] = inf;
         }
 
