@@ -40,8 +40,10 @@ public class DijkstraTest {
 
             System.out.print(here + " ");
 
+            // 아래 for문이 다익스트라의 핵심 코드라고 생각함
             for (int i = 1; i <= V; ++i) {   // 업데이트 시켜주는 for문
                 if (ad[here][i] != 0 && dist[i] > (dist[here] + ad[here][i])) {
+                    // if 문 조건을 잘 생각하기 (업테이트를 위함)
                     dist[i] = dist[here] + ad[here][i];
                     pq.offer(new Element(i, dist[i]));
                 }
