@@ -1,9 +1,11 @@
 <h1> Algorithm Studying with Java</h1>
 
-<div>1. Kruskal (union-find)  </div> <br>
+<h3>1.Kruskal (union-find)  </h3> <br>
 
-<div>2.Dijkstra </div> <br>
+<h3>2.Prim </h3> <br> 
 
-<div>3.Dynamic Programming </div> <br>
+<h3>3.Dijkstra </h3> <br>
 
-<div>4. Greedy </div> <br>
+<h3>4.Dynamic Programming </h3> <br>
+
+<h3>5. Greedy </h3> <br>
