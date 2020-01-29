@@ -22,6 +22,7 @@
 
 <ul>
   <li><a href="https://github.com/wjdrbs96/Algorithm/blob/master/Dynamic_Programming/fibonacci.java">Dynamic Programming</a></li>
+  <li><a href="https://github.com/wjdrbs96/Baekjoon/blob/master/Java/2100%20~%202199/2133.java">BOJ-2133 DP Example</a></li>
 </ul>
 
 <h3>Greedy </h3> 
