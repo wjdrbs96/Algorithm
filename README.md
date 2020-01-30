@@ -30,3 +30,9 @@
 <ul>
   <li><a href="https://github.com/wjdrbs96/Algorithm/blob/master/Greedy/Greedy.java">Greedy</a></li>
 </ul>
+
+<h3>Backtracking</h3>
+
+<ul>
+  <li><a href="">BOJ-9633 N-Queen</a></li>
+</ul>
