@@ -1,4 +1,4 @@
-<h1> Algorithm Studying</h1>
+<h1>📗 Algorithm Studying</h1>
 
 <h3>Kruskal </h3>
 
