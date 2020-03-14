@@ -1,5 +1,7 @@
 # 📗 Algorithm Studying
 
+    📄자바를 이용해 알고리즘 개념을 공부하는 공간입니다 
+
 ### Kruskal 
 
 * [Kruskal](https://github.com/wjdrbs96/Algorithm/blob/master/Kruskal/Kruskal.java)
